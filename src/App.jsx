@@ -8,9 +8,9 @@ const App = () => {
         <h1 className="sr-only">Project tracking intro component</h1>
         <section className="mt-12 lg:mt-24 grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto items-center">
           <figure className="order-1 md:order-2">
-            <img src={`${baseImagePath}/illustration-devices.svg`} alt="" className="h-full w-full relative max-md:translate-x-8 lg:translate-x-36 md:translate-x-10"/>
+            <img src={`${baseImagePath}/illustration-devices.svg`} alt="" className="h-auto w-[75rem] absolute top-[20%] max-md:translate-x-6"/>
           </figure>
-          <div className="order-2 md:order-1 px-6 lg:px-0 pt-18 md:pt-0 flex flex-col gap-6">
+          <div className="order-2 md:order-1 px-6 lg:px-0 mt-64 md:mt-0 flex flex-col gap-6">
             <div className="flex items-center gap-2">
               <strong className="flex items-center justify-center bg-Very-Dark-Blue text-white px-2 py-1 rounded-full uppercase text-sm">new</strong>
               <span className="uppercase text-lg font-barlow text-Grayish-Blue">Monograph Dashboard</span>

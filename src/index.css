@@ -19,7 +19,7 @@ ul li:is(:hover, :focus-visible) {
 }
 
 body {
-  @apply before:content-[''] before:absolute before:right-0 before:top-0 lg:before:w-[40vw] lg:before:h-[50vh] lg:before:rounded-bl-3xl before:bg-Light-Grayish-Blue before:-z-1
-  max-md:before:w-[50vw] max-md:before:h-[48vh] max-md:before:rounded-bl-[6rem]
-  md:before:w-[45vw] md:before:h-[25vh] md:before:rounded-bl-[3rem]
+  @apply before:content-[''] before:absolute before:right-0 before:top-0 lg:before:w-[50vw] lg:before:h-[50vh] lg:before:rounded-bl-3xl before:bg-Light-Grayish-Blue before:-z-1
+  max-md:before:w-[55vw] max-md:before:h-[48vh] max-md:before:rounded-bl-[6rem]
+  md:before:w-[55vw] md:before:h-[25vh] md:before:rounded-bl-[3rem]
 }
